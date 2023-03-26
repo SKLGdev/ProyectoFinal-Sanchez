@@ -1,0 +1,87 @@
+/* Seccion Introduccion */
+
+.introduccion {
+  padding: 4rem;
+}
+
+.seccion-presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flecha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+
+  .img-flecha {
+    max-width: 300px;
+    padding: 10px;
+    height: 60%;
+  }
+}
+
+/* Sobre la Empresa */
+
+.empresa {
+  min-height: 500px;
+  padding: 10px;
+
+  .contenedor {
+    text-align: center;
+    max-width: 600px;
+
+    .seccion-titulo {
+      font-size: 3rem;
+    }
+  }
+}
+
+/* Seccion Explicacion */
+
+.explicacion {
+  padding: 4rem;
+
+  .descripcion-lista {
+    text-align: left;
+
+    .iconos-texto {
+      display: flex;
+    }
+  }
+}
+
+.iconos-texto p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.iconos-texto i {
+  font-size: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+/* Carrusel | Imagenes */
+
+.helados {
+  padding: 40px 40px 80px 40px;
+
+  .carousel {
+    max-width: 500px;
+
+    .carousel-item {
+      height: 100%;
+    }
+  }
+}
+
+.seccion-descripcion {
+  padding-bottom: 3rem;
+}
