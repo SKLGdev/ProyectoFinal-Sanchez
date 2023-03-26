@@ -1,0 +1,102 @@
+/* Sabores de los Helados */
+
+.seccion-1-helados {
+  padding: 3rem;
+}
+
+/* Seccion de los Helados */
+
+.seccion-helados .columna {
+  padding: 20px;
+  border: 3px solid #4e5351;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.columna:hover {
+  color: white;
+  background-color: $color-gris;
+}
+
+.contenedor-descripcion {
+  height: 600px;
+  max-height: 100%;
+  width: 608px;
+  max-width: 100%;
+  transition: all 0.2s ease-in;
+}
+
+.contenedor-descripcion:hover {
+  color: black;
+  background-color: $color-blanco;
+}
+
+.sabores-titulo {
+  padding: 15px 0px 15px 0px;
+  font-size: 2.8rem;
+}
+
+.items-sabores {
+  font-size: 1.1rem;
+}
+
+/* Galeria de Helados */
+
+.helados-recientes {
+  padding: 40px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    display: block;
+    transition: all 0.5s ease;
+  }
+}
+
+.helado-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+}
+
+.ice-cream {
+  position: relative;
+}
+
+.ice-cream:hover img {
+  opacity: 0.6;
+}
+
+.ice-cream:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
