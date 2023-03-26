@@ -1,0 +1,128 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: "Rubik Dirt", cursive;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-family: "Rubik Dirt", cursive;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+hr {
+  height: 10px;
+  width: 100%;
+  padding: 6px;
+  background-color: black;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: $color-blanco;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: $color-gris;
+}
+
+.seccion-verde {
+  color: black;
+  background-color: $color-verde;
+}
+
+.box-arriba {
+  background-image: linear-gradient(
+    to bottom,
+    #5a8c66,
+    #547e63,
+    #51705f,
+    #4f6159,
+    #4e5351
+  );
+}
+
+.box-abajo {
+  background-image: linear-gradient(
+    to top,
+    #5a8c66,
+    #547e63,
+    #51705f,
+    #4f6159,
+    #4e5351
+  );
+}
+
+.box-lateral {
+  background-image: linear-gradient(
+    to right,
+    #f6edd9,
+    #d5d3b5,
+    #b0ba96,
+    #87a37b,
+    #5a8c66
+  );
+}
+
+.box-arriba-abajo {
+  background-image: linear-gradient(
+    to top,
+    #f6edd9,
+    #d5d3b5,
+    #b0ba96,
+    #87a37b,
+    #5a8c66
+  );
+}
+
+.box-centro {
+  background-image: linear-gradient(
+    to bottom,
+    #5a8c66,
+    #558164,
+    #527762,
+    #506c5e,
+    #4f6159,
+    #4f6159,
+    #4f6159,
+    #4f6159,
+    #506c5e,
+    #527762,
+    #558164,
+    #5a8c66
+  );
+}
+
+.box-circulo {
+  background-image: radial-gradient(
+    circle,
+    #4e5351,
+    #686e6a,
+    #848b82,
+    #a3a89b,
+    #c5c5b5,
+    #d5d2c1,
+    #e5e0cd,
+    #f6edd9,
+    #f6edd9,
+    #f6edd9,
+    #f6edd9,
+    #f6edd9
+  );
+}
