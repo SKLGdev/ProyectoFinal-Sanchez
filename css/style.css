@@ -1,0 +1,496 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: "Rubik Dirt", cursive;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-family: "Rubik Dirt", cursive;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+hr {
+  height: 10px;
+  width: 100%;
+  padding: 6px;
+  background-color: black;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: #f6edd9;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #4e5351;
+}
+
+.seccion-verde {
+  color: black;
+  background-color: #5a8c66;
+}
+
+.box-arriba {
+  background-image: linear-gradient(
+    to bottom,
+    #5a8c66,
+    #547e63,
+    #51705f,
+    #4f6159,
+    #4e5351
+  );
+}
+
+.box-abajo {
+  background-image: linear-gradient(
+    to top,
+    #5a8c66,
+    #547e63,
+    #51705f,
+    #4f6159,
+    #4e5351
+  );
+}
+
+.box-lateral {
+  background-image: linear-gradient(
+    to right,
+    #f6edd9,
+    #d5d3b5,
+    #b0ba96,
+    #87a37b,
+    #5a8c66
+  );
+}
+
+.box-arriba-abajo {
+  background-image: linear-gradient(
+    to top,
+    #f6edd9,
+    #d5d3b5,
+    #b0ba96,
+    #87a37b,
+    #5a8c66
+  );
+}
+
+.box-centro {
+  background-image: linear-gradient(
+    to bottom,
+    #5a8c66,
+    #558164,
+    #527762,
+    #506c5e,
+    #4f6159,
+    #4f6159,
+    #4f6159,
+    #4f6159,
+    #506c5e,
+    #527762,
+    #558164,
+    #5a8c66
+  );
+}
+
+.box-circulo {
+  background-image: radial-gradient(
+    circle,
+    #4e5351,
+    #686e6a,
+    #848b82,
+    #a3a89b,
+    #c5c5b5,
+    #d5d2c1,
+    #e5e0cd,
+    #f6edd9,
+    #f6edd9,
+    #f6edd9,
+    #f6edd9,
+    #f6edd9
+  );
+}
+
+.navbar {
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 1.7rem;
+  font-family: "Phudu", cursive;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-family: "Phudu", cursive;
+}
+
+footer {
+  min-height: 500px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid black;
+}
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Index */
+@media (max-width: 1200px) {
+  .contenedor-intro {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1200px) {
+  .flecha {
+    display: none;
+  }
+  .flecha .img-flecha {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .descripcion {
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 1200px) {
+  .descripcion-lista {
+    padding-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .empresa {
+    max-height: 800px;
+  }
+}
+@media (max-width: 400px) {
+  .img-intro {
+    height: 100%;
+    width: 100%;
+  }
+}
+/* Nosotros */
+@media (max-width: 628px) {
+  .video {
+    max-width: 100%;
+    max-height: 260px;
+  }
+}
+/* Encargo */
+@media (max-width: 992px) {
+  .box-lateral {
+    background-image: linear-gradient(
+      to bottom,
+      #f6edd9,
+      #d5d3b5,
+      #b0ba96,
+      #87a37b,
+      #5a8c66
+    );
+  }
+}
+/* Ubicacion */
+@media (max-width: 556px) {
+  .imagen-ubicacion {
+    max-width: 250px;
+    max-height: 200px;
+  }
+}
+@media (max-width: 556px) {
+  .mapa {
+    max-width: 250px;
+    max-height: 200px;
+  }
+}
+/* Seccion Introduccion */
+.introduccion {
+  padding: 4rem;
+}
+
+.seccion-presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flecha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.flecha .img-flecha {
+  max-width: 300px;
+  padding: 10px;
+  height: 60%;
+}
+
+/* Sobre la Empresa */
+.empresa {
+  min-height: 500px;
+  padding: 10px;
+}
+.empresa .contenedor {
+  text-align: center;
+  max-width: 600px;
+}
+.empresa .contenedor .seccion-titulo {
+  font-size: 3rem;
+}
+
+/* Seccion Explicacion */
+.explicacion {
+  padding: 4rem;
+}
+.explicacion .descripcion-lista {
+  text-align: left;
+}
+.explicacion .descripcion-lista .iconos-texto {
+  display: flex;
+}
+
+.iconos-texto p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.iconos-texto i {
+  font-size: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+/* Carrusel | Imagenes */
+.helados {
+  padding: 40px 40px 80px 40px;
+}
+.helados .carousel {
+  max-width: 500px;
+}
+.helados .carousel .carousel-item {
+  height: 100%;
+}
+
+.seccion-descripcion {
+  padding-bottom: 3rem;
+}
+
+/* Seccion Hero */
+.seccion-historia {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.seccion-historia h1 {
+  padding-bottom: 3rem;
+}
+
+/* Seccion Videos */
+.seccion-videos {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.seccion-videos .video {
+  width: 550px;
+  height: 300px;
+}
+
+.titulo-videos {
+  padding-bottom: 3rem;
+}
+
+/* Caja Informativa */
+.cta-info {
+  width: 100%;
+  padding: 3rem;
+}
+
+/* Sabores de los Helados */
+.seccion-1-helados {
+  padding: 3rem;
+}
+
+/* Seccion de los Helados */
+.seccion-helados .columna {
+  padding: 20px;
+  border: 3px solid #4e5351;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.columna:hover {
+  color: white;
+  background-color: #4e5351;
+}
+
+.contenedor-descripcion {
+  height: 600px;
+  max-height: 100%;
+  width: 608px;
+  max-width: 100%;
+  transition: all 0.2s ease-in;
+}
+
+.contenedor-descripcion:hover {
+  color: black;
+  background-color: #f6edd9;
+}
+
+.sabores-titulo {
+  padding: 15px 0px 15px 0px;
+  font-size: 2.8rem;
+}
+
+.items-sabores {
+  font-size: 1.1rem;
+}
+
+/* Galeria de Helados */
+.helados-recientes {
+  padding: 40px;
+}
+.helados-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  display: block;
+  transition: all 0.5s ease;
+}
+
+.helado-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.ice-cream {
+  position: relative;
+}
+
+.ice-cream:hover img {
+  opacity: 0.6;
+}
+
+.ice-cream:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+/* Local */
+.imagen-mapa {
+  padding: 40px;
+}
+
+.descripcion-mapa {
+  padding: 2rem;
+}
+
+.img-ubicacion {
+  padding: 1.5rem;
+}
+.img-ubicacion .imagen-ubicacion {
+  width: 450px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+.mapa-ubicacion {
+  padding: 1.5rem;
+}
+.mapa-ubicacion .mapa {
+  width: 450px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
